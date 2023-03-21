@@ -23,7 +23,7 @@
 }
 
  @media only screen and (max-width: 1200px){
-        .card, .title, .pic{
+        .card, .title{
           width:100%;
         }
         .pic{
