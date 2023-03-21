@@ -19,25 +19,17 @@
 }
 .pic{
   float: left;
-  width: 50%;
+  width: 100%;
 }
-.inform{
-  float: right;
-  width: 30%;
-}
+
  @media only screen and (max-width: 1200px){
-        .card, .title{
+        .card, .title, .pic{
           width:100%;
         }
-        .pic{
-          width:80%;
-        }
-        .inform{
-           width:20%;
-        }
+        
    }
   @media only screen and (max-width: 500px){
-        .card, .title, .pic, .inform{
+        .card, .title, .pic{
           width:100%;
         }
    }
